@@ -6,14 +6,11 @@
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/augustinribreau/couple-time" />
-  </a>
 </p>
 
 > couple time
 
-### 🏠 [Homepage](https://github.com/AugustinRibreau/couple-time)
+### 🏠 [Github](https://github.com/AugustinRibreau/couple-time)
 
 ## Prerequisites
 
@@ -36,13 +33,10 @@ npm run start:dev
 
 👤 **Augustin Ribreau**
 
-* Website: https://augustinribreau.com/
-* GitHub: [@augustinribreau](https://github.com/augustinribreau)
-* LinkedIn: [@augustinribreau](https://linkedin.com/in/augustinribreau)
+- Website: https://augustinribreau.com/
+- GitHub: [@augustinribreau](https://github.com/augustinribreau)
+- LinkedIn: [@augustinribreau](https://linkedin.com/in/augustinribreau)
 
-## Show your support
+---
 
-Give a ⭐️ if this project helped you!
-
-***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
