@@ -1,0 +1,30 @@
+{
+  "name": "couple-time",
+  "version": "1.0.0",
+  "description": "Couple time",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npm run --silent clean && parcel serve index.html",
+    "clean": "rm -rf .cache dist",
+    "build:dev": "parcel build index.html",
+    "postinstall": "npm run build:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustinRibreau/couple-time.git"
+  },
+  "keywords": [
+    "couple",
+    "time"
+  ],
+  "author": "Augustin Ribreau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustinRibreau/couple-time/issues"
+  },
+  "homepage": "https://github.com/AugustinRibreau/couple-time#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
+  }
+}

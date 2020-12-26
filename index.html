@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Couple time</title>
+    <link
+      rel="icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/smiling-face-with-hearts_1f970.png"
+    />
+    <link rel="stylesheet" href="src/scss/main.scss" />
+  </head>
+  <body>
+    <div
+      class="main d-flex justify-content-center align-items-center flex-column"
+    >
+      <i class="fas fa-heart"></i>
+      <label for="date" class="title"
+        >À quelle date, vous êtes vous mis ensembles ?</label
+      >
+      <div
+        class="d-flex justify-center align-items-center flex-row time_content"
+      >
+        <input
+          class="date"
+          type="date"
+          id="date"
+          name="trip-start"
+          value="2018-07-22"
+        />
+        <input class="time" type="time" id="time" name="appt" value="12:00" />
+      </div>
+    </div>
+    <script src="src/js/date.js" charset="utf-8"></script>
+    <script
+      src="https://kit.fontawesome.com/989f89614e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
