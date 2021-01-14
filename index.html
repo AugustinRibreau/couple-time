@@ -11,11 +11,12 @@
   </head>
   <body>
     <div
+      id="main"
       class="main d-flex justify-content-center align-items-center flex-column"
     >
       <i class="fas fa-heart"></i>
       <label for="date" class="title"
-        >À quelle date, vous êtes vous mis ensembles ?</label
+        >À quelle date, vous êtes vous mis ensemble ?</label
       >
       <div
         class="d-flex justify-center align-items-center flex-row time_content"
@@ -29,8 +30,46 @@
         />
         <input class="time" type="time" id="time" name="appt" value="12:00" />
       </div>
+      <section class="love">
+        <a id="love">
+          <span class="text">Love</span>
+          <span class="line -right"></span>
+          <span class="line -top"></span>
+          <span class="line -left"></span>
+          <span class="line -bottom"></span>
+        </a>
+      </section>
     </div>
-    <script src="src/js/date.js" charset="utf-8"></script>
+    <div class="content" id="content">
+      <div class="content_body d-none" id="content_body">
+        <div class="difference_date">
+          <div class="difference">
+            <div>
+              <p id="differenceYear" class="difference_number"></p>
+              <p class="difference_text">&nbsp;années</p>
+            </div>
+            <div>
+              <p id="differenceMonth" class="difference_number"></p>
+              <p class="difference_text">&nbsp;mois</p>
+            </div>
+            <div>
+              <p id="differenceDate" class="difference_number"></p>
+              <p class="difference_text">&nbsp;jours</p>
+            </div>
+            <div>
+              <p id="differenceHours" class="difference_number"></p>
+              <p class="difference_text">&nbsp;heures</p>
+            </div>
+            <div>
+              <p id="differenceMinutes" class="difference_number"></p>
+              <p class="difference_text">&nbsp;minutes</p>
+            </div>
+            <img id="differenceGraph" src="#" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/app.js" charset="utf-8"></script>
     <script
       src="https://kit.fontawesome.com/989f89614e.js"
       crossorigin="anonymous"

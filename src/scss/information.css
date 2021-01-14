@@ -1,0 +1,52 @@
+.content_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.difference_date{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.difference{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+    padding: 5px 5px 0 5px;
+}
+
+.difference_number{
+    font-weight: 400;
+}
+
+.difference_text{
+    font-weight: 200;
+}
+
+.d-none{
+    display: none;
+}
+
+.difference div{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+#differenceGraph{
+    margin: 15px 0;
+}
