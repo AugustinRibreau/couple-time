@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "npm run --silent clean && parcel serve index.html",
+    "start-en:dev": "npm run --silent clean && parcel serve en/index.html",
     "clean": "rm -rf .cache dist",
     "build:dev": "parcel build index.html",
     "postinstall": "npm run build:dev"

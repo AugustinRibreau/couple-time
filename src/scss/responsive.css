@@ -1,0 +1,39 @@
+/* Laptop L */
+@media (max-width: 1440px) {
+}
+
+/* Before Laptop */
+@media (max-width: 1024px) {
+}
+
+/* Tablette */
+@media (max-width: 768px) {
+    .main {
+        padding: 30px 0;
+    }
+    .time_content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .time, .date{
+        margin: 5px 0;
+    }
+    .title{
+        font-size: 40px;
+    }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .date{
+        width: 95%;
+    }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+}
