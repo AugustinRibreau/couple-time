@@ -7,6 +7,8 @@
 
 .main {
   padding: 50px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .fa-heart {
@@ -53,4 +55,36 @@
   animation-fill-mode: forwards !important;
   /*height: 100vh;*/
   /*width: 100vw;*/
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 20px;
+  background: white !important;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 30px 0;
+}
+
+.footer a{
+  margin-left: -4px;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  transition: 0.25s;
+  color: #ff4d4d;
+}
+
+.language{
+  margin-left: 70px;
 }
